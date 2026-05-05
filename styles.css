@@ -112,3 +112,18 @@ footer {
   border-top: 1px solid #1f2937;
   color: #6b7280;
 }
+
+.socials {
+  margin-top: 15px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #6b7280;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #3b82f6;
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+}
