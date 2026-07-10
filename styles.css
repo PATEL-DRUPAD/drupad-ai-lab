@@ -185,17 +185,25 @@ footer {
 
 }
 
-/* ---------------- Roadmap ---------------- */
+/* ===========================================
+   Engineering Journey
+=========================================== */
+
+.section-subtitle{
+
+    margin-top:10px;
+    color:#94a3b8;
+    margin-bottom:40px;
+
+}
 
 .roadmap-grid{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
 
     gap:30px;
-
-    margin-top:40px;
 
 }
 
@@ -205,9 +213,21 @@ footer {
 
     border:1px solid #1f2937;
 
-    border-radius:14px;
+    border-radius:16px;
 
     padding:28px;
+
+    transition:.3s;
+
+}
+
+.roadmap-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 0 30px rgba(59,130,246,.12);
 
 }
 
@@ -233,7 +253,7 @@ footer {
 
     align-items:center;
 
-    padding:12px 0;
+    padding:14px 0;
 
     border-bottom:1px solid #1f2937;
 
@@ -245,27 +265,33 @@ footer {
 
 }
 
+/* ---------- Status Badges ---------- */
+
 .badge{
-
-    padding:6px 12px;
-
-    border-radius:999px;
 
     font-size:.78rem;
 
+    padding:6px 14px;
+
+    border-radius:999px;
+
     font-weight:600;
+
+    letter-spacing:.3px;
 
 }
 
-/* Status Colors */
+/* Green */
 
-.production{
+.using{
 
     background:#052e16;
 
     color:#4ade80;
 
 }
+
+/* Blue */
 
 .building{
 
@@ -275,6 +301,8 @@ footer {
 
 }
 
+/* Yellow */
+
 .learning{
 
     background:#422006;
@@ -283,10 +311,12 @@ footer {
 
 }
 
+/* Gray */
+
 .planned{
 
     background:#27272a;
 
-    color:#a1a1aa;
+    color:#d4d4d8;
 
 }
