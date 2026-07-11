@@ -1,184 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<title>Projects | Drupad Patel</title>
-
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Drupad Patel">
+  <meta name="description" content="AI engineering projects by Drupad Patel, including RAG platforms, LLM systems, machine learning pipelines, and intelligent workflow experiments.">
+  <meta property="og:title" content="Projects | Drupad Patel">
+  <meta property="og:description" content="Applied AI, machine learning, and intelligent systems projects by Drupad Patel.">
+  <meta property="og:type" content="website">
+  <title>Projects | Drupad Patel</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-<header class="navbar">
-
-<div class="brand">
-<h1>Drupad Patel</h1>
-<span>AI Lab</span>
-</div>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
-</nav>
-
-</header>
-
-<section class="hero">
-
-<h2 class="gradient-text">
-Projects
-</h2>
-
-<p>
-Building intelligent systems,
-one project at a time.
-</p>
-
-</section>
-
-<section class="section">
-
-<h2>Featured Projects</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>Enterprise RAG Platform</h3>
-
-<p>
-Production-grade Retrieval Augmented
-Generation platform.
-</p>
-
-<a class="project-button"
-href="project/enterprise-rag.html">
-
-Read Case Study →
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>OneHive</h3>
-
-<p>
-Knowledge platform powered
-by Retrieval-Augmented Generation.
-</p>
-
-<a class="project-button"
-href="project/onehive.html">
-
-Read Case Study →
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>In Development</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>AI Chat System</h3>
-
-<p>
-LLM powered assistant with
-streaming responses.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>ML Pipeline Framework</h3>
-
-<p>
-
-Reusable machine learning
-pipeline architecture.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Agentic Workflow Engine</h3>
-
-<p>
-
-Autonomous AI workflows
-for enterprise automation.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Research & Experiments</h2>
-
-<div class="grid">
-
-<div class="card">
-
-Transformer Architectures
-
-</div>
-
-<div class="card">
-
-Natural Language Processing
-
-</div>
-
-<div class="card">
-
-Computer Vision
-
-</div>
-
-<div class="card">
-
-Reinforcement Learning
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Drupad Patel
-
-</p>
-
-</footer>
-
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Drupad Patel home">
+      <span class="brand-mark">DP</span>
+      <span class="brand-copy">
+        <strong>Drupad Patel</strong>
+        <span>AI Lab</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+      <span class="sr-only">Toggle navigation</span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero compact-hero section-shell" aria-labelledby="projects-title">
+      <div class="hero-content">
+        <p class="eyebrow">Project portfolio</p>
+        <h1 id="projects-title">Building intelligent systems, one project at a time.</h1>
+        <p class="hero-lede">Applied work across Artificial Intelligence, Machine Learning, Software Engineering, and Intelligent Systems.</p>
+      </div>
+    </section>
+
+    <section class="section section-shell" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <p class="eyebrow">Featured projects</p>
+        <h2 id="featured-title">Case studies with production intent.</h2>
+      </div>
+
+      <div class="card-grid two-column">
+        <article class="card project-card">
+          <span class="card-kicker">RAG Platform</span>
+          <h3>Enterprise RAG Platform</h3>
+          <p>Production-grade Retrieval Augmented Generation platform designed for reliable knowledge access.</p>
+          <a class="text-link" href="project/enterprise-rag.html">Read case study</a>
+        </article>
+
+        <article class="card project-card">
+          <span class="card-kicker">Knowledge System</span>
+          <h3>OneHive</h3>
+          <p>Knowledge platform powered by Retrieval-Augmented Generation for organized, searchable intelligence.</p>
+          <a class="text-link" href="project/onehive.html">Read case study</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-shell" aria-labelledby="development-title">
+      <div class="section-heading">
+        <p class="eyebrow">In development</p>
+        <h2 id="development-title">Systems moving from idea to implementation.</h2>
+      </div>
+
+      <div class="card-grid three-column">
+        <article class="card">
+          <span class="card-kicker">LLM Interface</span>
+          <h3>AI Chat System</h3>
+          <p>LLM powered assistant with streaming responses.</p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">ML Systems</span>
+          <h3>ML Pipeline Framework</h3>
+          <p>Reusable machine learning pipeline architecture.</p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">Agents</span>
+          <h3>Agentic Workflow Engine</h3>
+          <p>Autonomous AI workflows for enterprise automation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-shell" aria-labelledby="research-title">
+      <div class="section-heading">
+        <p class="eyebrow">Research and experiments</p>
+        <h2 id="research-title">Topics shaping the lab.</h2>
+      </div>
+
+      <div class="topic-list" aria-label="Research topics">
+        <span>Transformer Architectures</span>
+        <span>Natural Language Processing</span>
+        <span>Computer Vision</span>
+        <span>Reinforcement Learning</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Drupad Patel - AI Lab</p>
+  </footer>
 </body>
-
 </html>
